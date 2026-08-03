@@ -8,6 +8,8 @@ public class ValidacaoDeSenha {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("========== VALIDAÇÃO DE SENHA ==========\n");
+		
 		do {
 			System.out.println("Informe sua senha: ");
 			tentativa = sc.nextLine();
@@ -16,7 +18,7 @@ public class ValidacaoDeSenha {
 				System.out.println("Senha correta.");
 			}
 			else {
-				System.out.println("Senha invalida. Tente novamente.");
+				System.out.println("Senha invalida. Tente novamente. ");
 			}
 		
 		
