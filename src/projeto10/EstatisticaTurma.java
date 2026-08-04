@@ -1,5 +1,3 @@
-package Projeto_10;
-
 import java.util.Scanner;
 
 public class EstatisticaTurma {
